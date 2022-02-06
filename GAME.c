@@ -8,11 +8,11 @@ int main(){
     int nguesses=1;
     int num; 
     srand(time(0));
-    num=rand()%1000+1; //RANNDOM NUM WILL BE GENERATED BETWEEEN 1-1000 
+    num=rand()%100+1; //RANNDOM NUM WILL BE GENERATED BETWEEEN 1-1000 
     //printf("THE NUMBER IS %d\n", num);
 //Keep running the loop untill the num is guessed
 do{
-printf("GUESS A NUM BETWEEEN 1-1000....GET READY!!LESSGO!!\n");
+printf("GUESS A NUM BETWEEEN 1-100....GET READY!!LESSGO!!\n");
 scanf("%d",&guess);
 if( guess>num){
 printf("CHOTAAAAAAA\n");
